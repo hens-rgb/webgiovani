@@ -1,14 +1,31 @@
-[
-  {
-    "id": 1,
-    "title": "my title giovani1"
-  },
-  {
-    "id": 2,
-    "title": "my title giovani2"
-  },
-  {
-    "id": 3,
-    "title": "my title giovani3"
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post Giovani"
+    },
+    {
+      "id": 2,
+      "title": "Post Giovani2"
+    },
+    {
+      "id": 3,
+      "title": "Post Giovani3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "Comment giovani",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "Comment giovani2",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-]
+}
